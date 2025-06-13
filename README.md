@@ -1,2 +1,3 @@
-# vite-pages
-A template for using vite and gh pages
+# speed-calculatoring
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+i have no time for this

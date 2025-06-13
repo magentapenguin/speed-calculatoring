@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+@import 'inter-ui/inter.css';
+
+@theme {
+    --default-font-family: "Inter Variable", "Inter", system-ui, sans-serif;
+    --default-font-feature-settings: "frac", "cv08", "cv05", "cv04", "cv11";
+    --font-sans: var(--default-font-family);
+}
+
+@layer components {
+    .btn {
+        @apply bg-gray-300
+                hover:bg-gray-400
+                active:bg-gray-500
+                text-gray-800
+                dark:bg-gray-700
+                dark:hover:bg-gray-600
+                dark:active:bg-gray-500
+                dark:text-gray-200
+                text-sm
+                font-semibold
+                py-2
+                px-4
+                rounded
+                cursor-pointer;
+    }
+}
